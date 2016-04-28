@@ -1,1 +1,10 @@
 /* Inserta tu código aqui */
+/*header*/
+.bg-color-gray {
+	background-color: gray;
+	padding: 3%;
+	padding-bottom: 0%;
+}
+.nav-pills {
+	display:block;
+}
