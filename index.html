@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+
   <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
   <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
   <!--[if lt IE 9]>
@@ -14,50 +17,88 @@
   <![endif]-->
 </head>
 <body>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1 class="text-left">
-              Danhoxd
-            </h1>
-          </div>
-          <div class="col-md-6">
-            <a href="#">
-              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-              <span>
-                Noticias
-              </span>
-            </a>
-            <a href="#">
-              <i class="fa fa-rss" aria-hidden="true"></i>
-              <span>
-                enlaces RSS
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col md-12  bg-color-gray">
-            <ul class="nav nav-pills">
-                <li role="presentation" class="active"><a href="#">Bienvenido</a></li>
-                <li role="presentation"><a href="#">actualidades</a></li>
-               <li role="presentation"><a href="#">en directo</a></li>
-               <li role="presentation"><a href="#">Reporte financiero</a></li>
-                <li role="presentation"><a href="#">Nuestra oferta</a></li>
-               <li role="presentation"><a href="#">De nosotros a usted</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="com-md-6">
-            
-          </div>
-        </div>
-
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- menu de navegacion dnhoxd -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">danhoxd <small>bajo la lluvia</small></a>
       </div>
 
-    </header>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-right" role="search">
+        <a href="#">
+          <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+            <span>
+               Noticias
+            </span>
+        </a>
+        <a href="#">
+          <i class="fa fa-rss" aria-hidden="true"></i>
+            <span>
+              enlaces RSS
+            </span>
+        </a>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="buscar contenido">
+        </div>
+        <button type="submit" class="btn btn-default">enviar</button>
+      </form>
+  </nav>
+  <section class="historia-destacada container-fluid">
+      <div class="row">
+      <div class="col md-12 bg-color-gray">
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active"><a href="#">Bienvenido</a></li>
+          <li role="presentation"><a href="#">actualidades</a></li>
+          <li role="presentation"><a href="#">en directo</a></li>        
+          <li role="presentation"><a href="#">Reporte financiero</a></li>
+          <li role="presentation"><a href="#">Nuestra oferta</a></li>
+          <li role="presentation"><a href="#">De nosotros a usted</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6 col-xs-12">
+          <h2><span class="label label-default">historia destacada</span></h2> 
+          <h4>Example page header <small>Subtext for header</small></h4>
+          <h3>
+            <strong>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </strong>
+          </h3>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio expedita autem dolor earum, ad, inventore vero, consequuntur rem delectus id nobis officiis repudiandae fuga, ex quos. Reprehenderit neque officia, nulla.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nostrum nemo, optio maxime atque similique laudantium sed alias mollitia provident porro ullam enim, molestias blanditiis quas, unde nihil deserunt minima.
+          </p>
+          <a href="#">
+            <i class="fa fa-rss" aria-hidden="true"></i>
+            <strong>ver más ...</strong>
+          </a>
+          <a href="#">
+            <strong>Etiquetas:</strong>
+            lorem ipsum diligat
+          </a>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="well">
+            <h2>
+              <span class="label label-default">historia destacada</span></h2>
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe src="https://www.youtube.com/embed/49lY0HqqUVc" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- arraglar la caga que deje -->
+        </div>
+      </div>
+      </div>
+  </section>
+
+    
   </body>
 </html>
 	
